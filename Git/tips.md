@@ -5,4 +5,10 @@
 - After that you can push to your repository (git would ask you your name and password)
 - reference
     - https://qiita.com/s5601026/items/54304bbdaf025ef8f8bb
-
+- It will still happen again when you push next time
+- You have to remove git config credential.helper from your git config
+- reference
+    - https://qiita.com/euxn23/items/28d10bf9e0610bb54bbe
+- you have to change the permission of git config when you rewrite Xcode's git config
+- so you won't get error anymore. But at the same time you have to input your account name and password every time. 
+- This would not be suggested for the user who does not switch account often.
