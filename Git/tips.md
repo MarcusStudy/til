@@ -12,3 +12,8 @@
 - you have to change the permission of git config when you rewrite Xcode's git config
 - so you won't get error anymore. But at the same time you have to input your account name and password every time. 
 - This would not be suggested for the user who does not switch account often.
+
+## How to untrack a file in git
+1. Move the file to other directory
+1. Add the file name you delete to git ignore
+1. Move back the file to original directory
