@@ -1,4 +1,4 @@
-#Tips
+# Tips
 ## Cannot push to new Repository using other account
 - MacOS might use KeyChainAccess.app to save your account info
 - delete github.com from KeyChainAccess.app
