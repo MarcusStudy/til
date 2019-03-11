@@ -64,3 +64,7 @@ $ heroku config:unset ENV_NAME_1 ENV_NAME_2
 ```
 $ heroku ps -a appname
 ```
+## heroku logs で表示されるログのタイムゾーンがconfigに設定したタイムゾーンではない
+- https://journal.sooey.com/77
+- loggingアドオンではログはタイムゾーンを読み込んでくれないよう（公式側で対応中?でも去年の10月でコミット履歴とまってる）
+- 上記サイトでは自作ツールをつかってログの時間を変換している
